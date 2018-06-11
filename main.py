@@ -17,7 +17,7 @@ from train.trainer import Trainer
 from train.rmsprop_applier import RMSPropApplier
 from options import get_options
 
-USE_GPU = True # To use GPU, set True
+USE_GPU = False # To use GPU, set True
 
 # get command line args
 flags = get_options("training")
